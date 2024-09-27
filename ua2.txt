@@ -1,1 +1,10 @@
-
+def bx():
+	facebook_version = f"{random.randint(100, 450)}.{random.randint(0, 0)}.{random.randint(0, 0)}.{random.randint(1, 40)}.{random.randint(10, 150)}"
+	fbbv = str(random.randint(410000000,499999999))
+	fbrv = str(random.randint(000000000,999999999))
+	fbcr = random.choice(["GigSky","T-Mobile","MegaFon","telenor","T-Mobile"])
+	density = random.choice(['4x2.7'])
+	width = random.choice(["1440"])
+	height = random.choice(["2960"])
+	ua = f"[FBAN/FB4A;FBAV/{str(facebook_version)};FBBV/{str(fbbv)};[FBAN/FB4A;FBAV/{str(facebook_version)};FBBV/{str(fbbv)};FBDM/{{density={density},width={width},height={height}}};FBLC/en_US;FBRV/{str(fbrv)};FBCR/{str(fbcr)};FBMF/Samsung;FBBD/samsung;FBPN/com.facebook.orca;FBDV/Samsung Galaxy S9 Plus;FBSV/8.0;FBOP/1;FBCA/armeabi-v7a:armeabi;]"
+	return ua
