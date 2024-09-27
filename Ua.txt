@@ -1,4 +1,10 @@
-[FBAN/FB4A;FBAV/204.0.0.17.78;FBBV/445157028;[FBAN/FB4A;FBAV/204.0.0.17.78;FBBV/445157028;FBDM/{density=2x2.7,width=1440,height=3040};FBLC/en_US;FBRV/560711438;FBCR/telenor;FBMF/Samsung;FBBD/samsung;FBPN/com.facebook.orca;FBDV/Samsung Galaxy S10;FBSV/9.0;FBOP/1;FBCA/armeabi-v7a:armeabi;],
-[FBAN/FB4A;FBAV/317.0.0.14.72;FBBV/458490322;[FBAN/FB4A;FBAV/317.0.0.14.72;FBBV/458490322;FBDM/{density=2x2.7,width=1440,height=3040};FBLC/en_US;FBRV/235975566;FBCR/MegaFon;FBMF/Samsung;FBBD/samsung;FBPN/com.facebook.orca;FBDV/Samsung Galaxy S10;FBSV/9.0;FBOP/1;FBCA/armeabi-v7a:armeabi;],
-[FBAN/FB4A;FBAV/384.0.0.25.147;FBBV/461554589;[FBAN/FB4A;FBAV/384.0.0.25.147;FBBV/461554589;FBDM/{density=2x2.7,width=1440,height=3040};FBLC/en_US;FBRV/59851662;FBCR/T-Mobile;FBMF/Samsung;FBBD/samsung;FBPN/com.facebook.orca;FBDV/Samsung Galaxy S10;FBSV/9.0;FBOP/1;FBCA/armeabi-v7a:armeabi;],
-[FBAN/FB4A;FBAV/330.0.0.2.35;FBBV/418220444;[FBAN/FB4A;FBAV/330.0.0.2.35;FBBV/418220444;FBDM/{density=2x2.7,width=1440,height=3040};FBLC/en_US;FBRV/582622851;FBCR/MegaFon;FBMF/Samsung;FBBD/samsung;FBPN/com.facebook.orca;FBDV/Samsung Galaxy S10;FBSV/9.0;FBOP/1;FBCA/armeabi-v7a:armeabi;]
+def ax():
+	facebook_version = f"{random.randint(100, 450)}.{random.randint(0, 0)}.{random.randint(0, 0)}.{random.randint(1, 40)}.{random.randint(10, 150)}"
+	fbbv = str(random.randint(410000000,499999999))
+	fbrv = str(random.randint(000000000,999999999))
+	fbcr = random.choice(["GigSky","T-Mobile","MegaFon","telenor","T-Mobile"])
+	density = random.choice(['2x2.7'])
+	width = random.choice(["1440"])
+	height = random.choice(["3040"])
+	ua = f"[FBAN/FB4A;FBAV/{str(facebook_version)};FBBV/{str(fbbv)};[FBAN/FB4A;FBAV/{str(facebook_version)};FBBV/{str(fbbv)};FBDM/{{density={density},width={width},height={height}}};FBLC/en_US;FBRV/{str(fbrv)};FBCR/{str(fbcr)};FBMF/Samsung;FBBD/samsung;FBPN/com.facebook.orca;FBDV/Samsung Galaxy S10;FBSV/9.0;FBOP/1;FBCA/armeabi-v7a:armeabi;]"
+	return ua
